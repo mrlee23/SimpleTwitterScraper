@@ -1,0 +1,13 @@
+{
+  "name": "twitter-scraper",
+  "version": false,
+  "dependencies": {
+    "cheerio": "github:Volox/typed-cheerio#66bf518dec0e175fc5b08961304bdbf9bd29f8e5",
+    "debug": "registry:npm/debug#2.0.0+20160211003958",
+    "request": "registry:npm/request#2.69.0+20160428223725"
+  },
+  "ambientDependencies": {
+    "node": "registry:dt/node#4.0.0+20160412142033",
+    "request-promise": "registry:dt/request-promise#0.4.2+20160316155526"
+  }
+}
