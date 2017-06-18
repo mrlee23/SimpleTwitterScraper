@@ -11,14 +11,20 @@
 		"request": "2.x"
 	},
 	"devDependencies": {},
+	"engines": { "node": ">= 0.4.0" },
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/mrlee23/SimpleTwitterScraper.git"
+	},
+	"main": "./index.js",
 	"author": "LeeDongSoo <mrlee_23@naver.com>",
 	"license": "MIT",
 	"keywords": [
 		"twitter",
 		"scraper",
-		"adapted"
+		"simple"
 	]
 }
