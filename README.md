@@ -25,8 +25,10 @@ Output Data
 
 How to use
 ----------
-`simple-twitter-scraper <keyword> <first date(YYYY-MM-DD)> <last date(YYYY-MM-DD)> <output directory>
+`node ./index.js <keyword> <first date(YYYY-MM-DD)> <last date(YYYY-MM-DD)> <output directory>`
 ```sh
-> npm install -g simple-twitter-scraper
-> simple-twitter-scraper twitter 2017-01-01 2017-02-01 ./
+> mkdir tmp_twitter
+> cd tmp_twitter
+> npm install simple-twitter-scraper
+> node ./index.js obama 2017-01-01 2017-02-01 ./
 ```
