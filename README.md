@@ -32,3 +32,7 @@ How to use
 > cd tmp_twitter
 > simple-twitter-scraper obama 2017-01-01 2017-02-01 ./
 ```
+
+Example
+-------
+[![Example on Youtube](https://img.youtube.com/vi/r1lvmwa9pMQ/0.jpg)](https://youtu.be/r1lvmwa9pMQ)
