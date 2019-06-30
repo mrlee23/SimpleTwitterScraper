@@ -150,7 +150,7 @@ class Scraper extends stream_1.Readable {
             const timestamp = Number($('._timestamp', div).attr('data-time'));
 			let $div = $(div);
 			const id = $div.attr('data-item-id'),
-				  username = $div.find('span.username.u-dir b').text(),
+                  username = $div.find('a.account-group').find('span.username.u-dir b').text(),
 				  permalink = 'https://twitter.com'.concat('/', username, '/status/', id),
 				  text = $div.find('p.js-tweet-text').text().replace('# ','#').replace('@ ', '@').replace(/\s+/g, ' '),
 				  date = moment(new Date(parseInt($div.find("small.time span.js-short-timestamp").attr("data-time"))*1000)).format('YYYY-MM-DD HH:mm'),
